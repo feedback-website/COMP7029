@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 640px;
+    width: 50%;
+    margin: 50px auto;
+    padding: 2rem;
+  }
+  
+  .title {
+    color: #555555;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .question-box {
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .question {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .radio {
+	display: none ;
+	font-size: 2em;
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.5em;
+	transition: all 0.2s ease-in-out;
+	transform-origin: center center;
+}
+  
+  .question p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0077C0;
+    margin-bottom: 10px;
+  }
+  
+  .emoji-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #ddd;
+    color: #e7d3d3;
+    border: 3px solid #617370;
+  }
+  
+  .emoji {
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px 25px;
+    cursor: pointer;    
+    transition: transform 0.2s;
+  }
+  
+  .emoji:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .emoji-1:before {
+    content: "☹️";
+    color: #ff4d4d;
+  }
+  
+  .emoji-2:before {
+    content: "🙁";
+    color: #ff9933;
+  }
+  
+  .emoji-3:before {
+    content: "😐";
+    color: #ffcc00;
+  }
+  
+  .emoji-4:before {
+    content: "🙂";
+    color: #ccff33;
+  }
+  
+  .emoji-5:before {
+    content: "😄";
+    color: #66ff66;
+  }
+  
+  .suggestion-label {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0077C0;
+    margin-bottom: 10px;
+  }
+  
+  .suggestion-textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+
+  .logout {
+    float: right;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    color:blue;
+    background-color: #ddd;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .button {
+    
+    display: block;
+    background-color: #D10373;
+    border: none;
+    border-radius: 5px;
+    color: #d03d3d;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #B60261;
+  }
+  
+  input[type="submit"] {
+    background-color: #D10373;
+    border: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+  }
+
+  .thank-you {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
